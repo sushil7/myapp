@@ -8,7 +8,7 @@ gem 'rails', '3.1.1'
 group :development do
 gem 'sqlite3'
 end
-
+gem 'mysql2', :group => :production
 
 # Gems used only for assets and not required
 # in production environments by default.
